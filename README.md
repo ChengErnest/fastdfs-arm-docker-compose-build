@@ -4,7 +4,7 @@
 
 2. `environment`：必要安装包与配置文件
 
-   ![](https://github.com/nicollcheng/fastdfs-arm-docker-compose-build/blob/master/imgs/environment.png)
+   ![](https://github.com/nicollcheng/fastdfs-arm-docker-compose-build/blob/main/imgs/environment.png)
 
 3. 编写Docker Compose构建启动文件`docker-compose.yml`
 
@@ -56,7 +56,7 @@
      fdfs_monitor /etc/fdfs/storage.conf
      ```
 
-     ![](https://github.com/nicollcheng/fastdfs-arm-docker-compose-build/blob/master/imgs/storage-info.png)
+     ![](https://github.com/nicollcheng/fastdfs-arm-docker-compose-build/blob/main/imgs/storage-info.png)
 
      确保该状态为`ACTIVE`状态
 
@@ -66,7 +66,7 @@
      fdfs_monitor /etc/fdfs/client.conf
      ```
 
-     ![](https://github.com/nicollcheng/fastdfs-arm-docker-compose-build/blob/master/imgs/client-info.png)
+     ![](https://github.com/nicollcheng/fastdfs-arm-docker-compose-build/blob/main/imgs/client-info.png)
 
      确保该状态为`ACTIVE`状态
 
